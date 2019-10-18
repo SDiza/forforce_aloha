@@ -1,25 +1,19 @@
-
 @import "vars";
 @import "libs";
 @import "fonts";
-
-
-
-
-
 @import "media";
 
-*{
+* {
   box-sizing: border-box;
 }
 
-a{
+a {
   text-decoration: none;
   display: inline-block;
 }
 
 ul,
-li{
+li {
   list-style: none;
   margin: 0;
   padding: 0;
@@ -32,53 +26,7 @@ li{
   padding: 0 15px;
 }
 
-.header {
-  background-image: url(../img/header-background.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  min-height: 1080px;
-}
-
-.menu{
-  padding-top: 80px;
-  position: relative;
-  ul{
-    text-align: right;
-  }
-  li{
-    display: inline-block;
-    padding: 15px;
-  }
-  li:nth-child(1){float: left;}
-  li:nth-child(2){float: left;}
-  li:nth-child(3){float: left;}
-  li:nth-child(4){float: left;}
-  li:nth-child(5){float: left;}
-  a{
-    font-size: 28px;
-    letter-spacing: 2.8px;
-    text-transform: uppercase;
-    color: #603813;
-    font-family: "Queen of Clubs";
-    font-weight: 400;
-    display: block;
-    transition: all .3s ;
-  }
-  a:hover{
-    color: #fff;
-    border-bottom: 3px solid #fff;
-    display: inline-block;
-  }
-}
-
-.menu__logo{
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-}
-
-.menu__button{
+.default-btn {
   padding: 19px 37px;
   border: none;
   outline: none;
@@ -87,15 +35,116 @@ li{
   line-height: 30px;
   letter-spacing: 2.2px;
   font-family: "Queen of Clubs";
-  background-color: #7eb252;
+  background: linear-gradient(to right, #00a99e, #21b575);
+  border-radius: 2px;
   cursor: pointer;
   position: relative;
 }
-.menu__lang-switch{
-  display: inline-flex;
-  padding: 15px;
-  a{
-    font-size: 20px;
 
+
+.top {
+  background: url(../img/sedrick-photo.png) no-repeat center,
+  url(../img/alla-photo.png) no-repeat center,
+  url(../img/header-background.png) no-repeat center;
+  background-size: cover;
+  background-position: center;
+  min-height: 1080px;
+
+
+  .top__navigation {
+    padding-top: 55px;
+    position: relative;
+
+    ul {
+      text-align: right;
+    }
+
+    li {
+      display: inline-block;
+      padding: 15px;
+    }
+
+    li:nth-child(1) {
+      float: left;
+    }
+
+    li:nth-child(2) {
+      float: left;
+    }
+
+    li:nth-child(3) {
+      float: left;
+    }
+
+    li:nth-child(4) {
+      float: left;
+    }
+
+    li:nth-child(5) {
+      float: left;
+    }
+
+    a {
+      font-size: 28px;
+      letter-spacing: 2.8px;
+      text-transform: uppercase;
+      color: #603813;
+      font-family: "Queen of Clubs";
+      font-weight: 400;
+      display: block;
+      transition: all .3s;
+    }
+
+    a:hover {
+      color: #fff;
+      border-bottom: 3px solid #fff;
+      display: inline-block;
+    }
+
+
+    .top__logo {
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+
+    .top__navigation-btn {
+
+    }
+
+    .top__navigation-lang {
+      display: inline-flex;
+      padding: 15px;
+
+      a {
+        font-size: 20px;
+
+      }
+    }
+  }
+}
+
+.top__wrapper {
+  max-width: 1000px;
+  text-align: center;
+  margin: 0 auto;
+
+  .top__inner {
+    margin-top: 485px;
+  }
+
+  .top__inner-title {
+    font-size: 80px;
+    letter-spacing: 8px;
+    font-family: "Queen of Clubs";
+    color: #fff;
+  }
+  .top__inner-text{
+    font-family: "PD Din TextPro";
+    font-size: 30px;
+    color: #fff;
+  }
+  .top__inner-btn{
+    display: inline-block;
   }
 }
