@@ -143,8 +143,33 @@ li {
     font-family: "PD Din TextPro";
     font-size: 30px;
     color: #fff;
+    padding-bottom: 50px;
   }
   .top__inner-btn{
     display: inline-block;
+
   }
+}
+.methods{
+  background-color: #e6e6e6;
+}
+.methods__inner{
+  text-align: center;
+  .methods__title{
+    font-family: "Queen of Clubs";
+    font-size: 80px;
+    color: #000;
+    letter-spacing: 8px;
+    padding-top: 50px;
+
+  }
+  .methods__item-title{
+    font-family: "Queen of Clubs";
+    font-size: 35px;
+    line-height: 30px;
+    letter-spacing: 3.5px;
+    color: #000;
+    padding: 25px;
+  }
+
 }
