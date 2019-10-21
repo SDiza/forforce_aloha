@@ -139,23 +139,28 @@ li {
     font-family: "Queen of Clubs";
     color: #fff;
   }
-  .top__inner-text{
-    font-family: "PD Din TextPro";
+
+  .top__inner-text {
+    font-family: "PFDin TextPro-Regular";
     font-size: 30px;
     color: #fff;
     padding-bottom: 50px;
   }
-  .top__inner-btn{
+
+  .top__inner-btn {
     display: inline-block;
 
   }
 }
-.methods{
+
+.methods {
   background-color: #e6e6e6;
 }
-.methods__inner{
+
+.methods__inner {
   text-align: center;
-  .methods__title{
+
+  .methods__title {
     font-family: "Queen of Clubs";
     font-size: 80px;
     color: #000;
@@ -163,7 +168,8 @@ li {
     padding-top: 50px;
 
   }
-  .methods__item-title{
+
+  .methods__item-title {
     font-family: "Queen of Clubs";
     font-size: 35px;
     line-height: 30px;
@@ -172,4 +178,523 @@ li {
     padding: 25px;
   }
 
+  .methods__item-text {
+    font-family: "PFDin TextPro-Regular";
+    font-size: 25px;
+    color: #000;
+    padding-top: 35px;
+    padding-bottom: 90px;
+  }
+
+}
+
+.timetable {
+  background-image: url(../img/header-background.png);
+  background-size: cover;
+  background-position: center;
+  min-height: 1080px;
+  position: relative;
+}
+
+.timetable__background-tosin {
+
+  background-image: url(../img/tosin-photo.png);
+  position: absolute;
+  background-repeat: no-repeat;
+  height: 907px;
+  width: 389px;
+  bottom: 0;
+  left: 110px;
+}
+
+.timetable__background-sergey {
+  background-image: url(../img/sergey-photo.png);
+  position: absolute;
+  background-repeat: no-repeat;
+  height: 942px;
+  width: 385px;
+  bottom: 0;
+  right: 110px;
+}
+
+.timetable__inner {
+  text-align: center;
+  max-width: 900px;
+  margin: 0 auto;
+  padding-top: 110px;
+
+}
+
+.timetable__title {
+  font-size: 80px;
+  letter-spacing: 8px;
+  font-family: "Queen of Clubs";
+  color: #fff;
+}
+
+.timetable__subtitle {
+  font-size: 40px;
+  color: #000;
+  font-family: PFDin TextPro-Regular;
+  padding: 50px 0;
+  max-width: 645px;
+  margin: 0 auto;
+
+  span {
+    color: #fff;
+  }
+}
+
+.timetable__item-title {
+  font-size: 35px;
+  line-height: 33px;
+  letter-spacing: 3.5px;
+  font-family: "Queen of Clubs";
+  color: #000;
+  padding: 25px;
+}
+
+.timetable__item-text {
+  font-size: 25px;
+  color: #000;
+  font-family: PFDin TextPro-Regular;
+  padding: 5px;
+}
+
+.intens {
+  .intens__suptitle {
+    font-family: "Queen of Clubs";
+    font-size: 13.49px;
+    color: #fff;
+    line-height: 12.72px;
+    letter-spacing: 1.3px;
+    color: #ffc688;
+  }
+
+  .intense__item:last-child {
+    .intens__text {
+      color: #fff;
+    }
+  }
+
+  .intens__text {
+    padding: 5px;
+  }
+}
+
+.intens:after {
+  content: '';
+  background-image: url(../img/and.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  width: 39px;
+  height: 102px;
+  right: 50%;
+  transform: translateX(50%);
+}
+
+.timetable__inner-btn {
+  display: inline-block;
+}
+
+.about {
+  background-color: #e6e6e6;
+  position: relative;
+}
+
+.about__background {
+  background-image: url(../img/elvira-photo.png);
+  position: absolute;
+  background-repeat: no-repeat;
+  width: 310px;
+  height: 876px;
+  right: 50%;
+  transform: translateX(50%);
+}
+
+.about__inner {
+  text-align: center;
+}
+
+.about__title {
+  font-size: 80px;
+  letter-spacing: 8px;
+  font-family: "Queen of Clubs";
+  color: #000;
+  padding-top: 50px;
+}
+
+.about__item-title {
+  font-size: 35px;
+  line-height: 33px;
+  letter-spacing: 3.5px;
+  font-family: "Queen of Clubs";
+  color: #000;
+  padding: 10px 0;
+}
+
+.about__item-text {
+  font-size: 25px;
+  color: #000;
+  font-family: PFDin TextPro-Regular;
+  padding: 10px 0;
+}
+
+
+.about__items-right {
+  text-align: left;
+
+}
+
+.about__items-left {
+  text-align: right;
+
+}
+
+.about__items-left .about__title {
+  padding-left: 300px;
+
+}
+
+
+.trial {
+  background-image: url(../img/header-background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.trial__inner {
+  text-align: center;
+  margin: 0 auto;
+
+}
+
+.trial__title {
+  font-size: 80px;
+  letter-spacing: 8px;
+  font-family: "Queen of Clubs";
+  color: #000;
+  padding-top: 100px;
+  max-width: 840px;
+  margin: 0 auto;
+}
+
+.trial__subtitile {
+  font-size: 35px;
+  line-height: 33px;
+  letter-spacing: 3.5px;
+  font-family: "Queen of Clubs";
+  color: #fff;
+  max-width: 690px;
+  margin: 0 auto;
+}
+
+.trial__text {
+  font-size: 25px;
+  color: #fff;
+  font-family: PFDin TextPro-Regular;
+  max-width: 990px;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+
+.trial__btn {
+  display: inline-block;
+  width: 300px;
+  margin-top: 50px;
+  margin-bottom: 80px;
+}
+
+.review {
+  background-image: url(../img/review-backgound.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.review__inner {
+  text-align: center;
+  padding-top: 80px;
+}
+
+.review__title {
+  position: relative;
+  max-width: 1185px;
+  margin: 0 auto;
+  color: #f7931e;
+  font-size: 40px;
+  font-family: 'PFDin TextPro-Medium';
+
+  span {
+    font-size: 270px;
+    font-family: "Queen of Clubs";
+    line-height: 253px;
+    color: #fff;
+    vertical-align: middle;
+  }
+
+  span:nth-child(2) {
+    color: #f7931e;
+    font-family: PFDin TextPro Regular;
+    font-size: 25px;
+    line-height: 25px;
+    position: absolute;
+    bottom: 50px;
+    max-width: 330px;
+    right: -15px;
+  }
+}
+
+.review__subtitle {
+  color: #fff;
+  font-size: 25px;
+  font-family: "PFDin TextPro-Regular";
+  max-width: 780px;
+  margin: 0 auto;
+}
+
+.review__slider {
+  max-width: 1410px;
+  position: relative;
+}
+
+.slider__item {
+  padding: 15px 15px;
+}
+
+.slider__avatar {
+  position: absolute;
+
+}
+
+.slider__item-content {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 5px;
+}
+
+.slider__user {
+  font-size: 20px;
+  color: #000;
+  font-family: "PFDin TextPro-Medium";
+  text-align: left;
+  padding-left: 80px;
+}
+
+.slider__text {
+  text-align: left;
+  font-size: 15px;
+  line-height: 15px;
+  font-family: "PFDin TextPro-Regular";
+  color: #808080;
+  padding-left: 80px;
+}
+
+.slick-btn {
+  position: absolute;
+  z-index: 3;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  background: none;
+}
+
+.slick-btn:before {
+  position: absolute;
+  font-family: 'icomoon';
+  color: #f9ae40;
+  font-size: 100px;
+
+}
+
+.slick-next:before {
+  content: "\f105";
+}
+
+.slick-next {
+  right: -10px;
+  top: 32%;
+}
+
+.slick-prev:before {
+  content: "\f104";
+}
+
+.slick-prev {
+  left: -50px;
+  top: 32%;
+}
+
+.review__text {
+  font-size: 25px;
+  color: #fff;
+  font-family: "PFDin TextPro-Regular";
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 15px 0;
+}
+
+.review__btn {
+  display: inline-block;
+  width: 300px;
+  margin-top: 50px;
+  margin-bottom: 80px;
+}
+
+.price{
+  background-image: url(../img/header-background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.price__inner{
+  text-align: center;
+}
+.price__title{
+  font-size: 80px;
+  letter-spacing: 8px;
+  line-height: 75px;
+  font-family: "Queen of Clubs";
+  color: #000;
+}
+
+.price__subtitle{
+  font-size: 35px;
+  letter-spacing: 8px;
+  line-height: 33px;
+  font-family: "Queen of Clubs";
+  color: #000;
+}
+.price__text{
+  color: #000;
+  font-size: 25px;
+  font-family: "PFDin TextPro-Regular";
+}
+
+.tabs {
+  max-width: 930px;
+  margin: 0 auto;
+}
+.tabs__caption {
+  display: inline-flex;
+  list-style: none;
+  position: relative;
+  width: 930px;
+}
+.tabs__caption li:last-child:before {
+  content: '';
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  right: -2px;
+  z-index: -1;
+  height: 5px;
+}
+.tabs__caption:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+.tabs__caption li {
+  padding: 15px;
+  background-color: #f1f1f1;
+  color: #b3b3b3;
+  position: relative;
+  text-align: center;
+  width: 330px;
+}
+.tabs__caption li:not(.active) {
+  cursor: pointer;
+}
+.tabs__caption li:not(.active):hover {
+  background: #f7921e;
+}
+.tabs__caption .active {
+  background: #f7921e;
+  color: #000;
+}
+.tabs__caption .active:after {
+  content: '';
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  right: 0;
+  height: 5px;
+  background: #f7921e;
+}
+.tabs__content {
+  display: none;
+  background-color: #f7921e;
+  padding: 7px 15px;
+}
+.tabs__content.active {
+  display: block;
+}
+
+.price__tabs-link{
+  font-size: 35px;
+  letter-spacing: 8px;
+  line-height: 33px;
+  font-family: "Queen of Clubs";
+  color: #000;
+}
+
+.price__tabs-content{
+  text-align: left;
+}
+
+.content__left-title{
+  font-size: 25px;
+  letter-spacing: 2.5px;
+  line-height: 33px;
+  font-family: "Queen of Clubs";
+  color: #000;
+  padding: 15px 50px;
+}
+.content__left-text{
+  font-size: 20px;
+  line-height: 20px;
+  font-family: "PFDin TextPro-Regular";
+  color: #000;
+  padding: 0 50px;
+}
+.content__left-price{
+  font-size: 176px;
+  letter-spacing: 2.5px;
+  line-height: 33px;
+  font-family: "Queen of Clubs";
+  color: #000;
+  line-height: 176px;
+  padding: 50px;
+}
+
+.content__right-items{
+  color: #fff;
+  font-size: 15px;
+  line-height: 15px;
+  font-family: "PFDin TextPro-Regular";
+
+  .content__right-title{
+    font-size: 20px;
+    letter-spacing: 2px;
+    line-height: 33px;
+    font-family: "Queen of Clubs";
+    padding: 15px 0;
+  }
+  .content__right-price{
+    font-size: 107px;
+    letter-spacing: 2.5px;
+    line-height: 107px;
+    font-family: "Queen of Clubs";
+  }
+  .content__right-text{
+    padding: 15px 5px;
+  }
+}
+.price__btn{
+  width: 300px;
+  text-align: center;
+  margin: 0 auto;
+  top: 40px;
 }
