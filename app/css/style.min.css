@@ -5017,25 +5017,33 @@ li {
   line-height: 75px;
   font-family: "Queen of Clubs";
   color: #000;
+  padding-top: 75px;
 }
 
 .price__subtitle {
   font-size: 35px;
-  letter-spacing: 8px;
+  letter-spacing: 3.5px;
   line-height: 33px;
   font-family: "Queen of Clubs";
   color: #000;
+  padding-top: 55px;
+  max-width: 690px;
+  margin: 0 auto;
 }
 
 .price__text {
   color: #000;
   font-size: 25px;
   font-family: "PFDin TextPro-Regular";
+  padding-top: 20px;
+  max-width: 820px;
+  margin: 0 auto;
 }
 
 .tabs {
   max-width: 930px;
   margin: 0 auto;
+  padding: 60px 0;
 }
 
 .tabs__caption {
@@ -5142,6 +5150,7 @@ li {
   color: #000;
   line-height: 176px;
   padding: 50px;
+  position: relative;
 }
 
 .content__right-items {
@@ -5164,6 +5173,7 @@ li {
   letter-spacing: 2.5px;
   line-height: 107px;
   font-family: "Queen of Clubs";
+  position: relative;
 }
 
 .content__right-items .content__right-text {
@@ -5175,4 +5185,57 @@ li {
   text-align: center;
   margin: 0 auto;
   top: 40px;
+}
+
+.content__left-price:after {
+  position: absolute;
+  content: '';
+  background-image: url(../img/uah-ico.png);
+  background-repeat: no-repeat;
+  width: 14px;
+  height: 45px;
+  top: 75px;
+}
+
+.content__right-price:after {
+  position: absolute;
+  content: '';
+  background-image: url(../img/uah-ico-white.png);
+  background-repeat: no-repeat;
+  width: 9px;
+  height: 27px;
+  top: 15px;
+}
+
+.programm__tabs .tabs__caption .active {
+  background: #ff7f76;
+  color: #023756;
+}
+
+.programm__tabs .tabs__caption li:not(.active):hover {
+  background: #ff7f76;
+}
+
+.programm__tabs .tabs__caption .active:after {
+  background: #ff7f76;
+}
+
+.programm__tabs .tabs__content {
+  background-color: #ff7f76;
+}
+
+.programm__tabs .content__left-title {
+  color: #023756;
+}
+
+.programm__tabs .content__left-text {
+  color: #023756;
+}
+
+.programm__tabs .content__left-price {
+  color: #023756;
+}
+
+.programm__tabs .content__left-price:after {
+  background-image: url(../img/uah-ico-blue.png);
 }
