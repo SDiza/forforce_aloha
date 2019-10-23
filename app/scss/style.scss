@@ -101,17 +101,6 @@ li {
       display: inline-block;
     }
 
-
-    .top__logo {
-      position: absolute;
-      left: 50%;
-      transform: translateX(-50%);
-    }
-
-    .top__navigation-btn {
-
-    }
-
     .top__navigation-lang {
       display: inline-flex;
       padding: 15px;
@@ -122,6 +111,13 @@ li {
       }
     }
   }
+}
+
+.top__logo {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  padding-top: 50px;
 }
 
 .top__wrapper {
@@ -301,6 +297,7 @@ li {
 .about {
   background-color: #e6e6e6;
   position: relative;
+  min-height: 1080px;
 }
 
 .about__background {
@@ -311,10 +308,12 @@ li {
   height: 876px;
   right: 50%;
   transform: translateX(50%);
+  bottom: 0;
 }
 
 .about__inner {
   text-align: center;
+  position: relative;
 }
 
 .about__title {
@@ -344,12 +343,21 @@ li {
 
 .about__items-right {
   text-align: left;
+  position: absolute;
+  right: 0;
+  max-width: 480px;
+
+  .about__item-title {
+    max-width: 250px;
+  }
 
 }
 
 .about__items-left {
   text-align: right;
-
+  position: absolute;
+  left: 0;
+  max-width: 480px;
 }
 
 .about__items-left .about__title {
@@ -752,9 +760,11 @@ li {
     background: #ff7f76;
     color: #023756;
   }
+
   .tabs__caption li:not(.active):hover {
     background: #ff7f76;
   }
+
   .tabs__caption .active:after {
     background: #ff7f76;
   }
@@ -762,6 +772,7 @@ li {
   .tabs__content {
     background-color: #ff7f76;
   }
+
   .content__left-title {
     color: #023756;
   }
@@ -773,7 +784,192 @@ li {
   .content__left-price {
     color: #023756;
   }
+
   .content__left-price:after {
     background-image: url(../img/uah-ico-blue.png);
   }
+}
+
+.payment {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  max-width: 570px;
+  margin: 0 auto;
+  padding: 40px 0;
+
+  .payment__visa {
+    background-image: url(../img/visa.png);
+    background-repeat: no-repeat;
+    width: 66px;
+    height: 20px;
+
+  }
+
+  .payment__mastercard {
+    background-image: url(../img/mastercard.png);
+    background-repeat: no-repeat;
+    width: 56px;
+    height: 35px;
+  }
+
+  .payment__privat24 {
+    background-image: url(../img/pb24.png);
+    background-repeat: no-repeat;
+    width: 42px;
+    height: 42px;
+  }
+
+  .payment__mono {
+    background-image: url(../img/mono.png);
+    background-repeat: no-repeat;
+    width: 41px;
+    height: 41px;
+  }
+
+  .payment__terminal {
+    background-image: url(../img/terminal.png);
+    background-repeat: no-repeat;
+    width: 39px;
+    height: 41px;
+  }
+
+  .payment__check {
+    background-image: url(../img/check.png);
+    background-repeat: no-repeat;
+    width: 39px;
+    height: 39px;
+  }
+
+  .payment__cash {
+    background-image: url(../img/cash.png);
+    background-repeat: no-repeat;
+    width: 37px;
+    height: 38px;
+  }
+}
+
+.advantages {
+  background-color: #e6e6e6;
+
+}
+
+.advantages__inner {
+  text-align: center;
+}
+
+.advantages__title {
+  font-size: 80px;
+  letter-spacing: 8px;
+  line-height: 75px;
+  font-family: "Queen of Clubs";
+  color: #000;
+  padding-top: 140px;
+}
+
+.advantages__text {
+  font-size: 20px;
+  line-height: 20px;
+  font-family: "PFDin TextPro-Regular";
+  color: #000;
+  padding: 45px 0;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.card__wrap {
+  max-width: 330px;
+  position: relative;
+
+}
+
+.card__link {
+  position: absolute;
+  top: 70px;
+  left: 50%;
+  transform: translateX(-50%);
+
+  a {
+    font-size: 20px;
+    font-family: "PFDin TextPro-Regular";
+    color: #fff;
+  }
+}
+
+.card__text {
+  font-size: 20px;
+  line-height: 20px;
+  font-family: "PFDin TextPro-Regular";
+  color: #000;
+}
+
+.advantages__subtitle {
+  font-size: 35px;
+  line-height: 33px;
+  letter-spacing: 3.5px;
+  font-family: "Queen of Clubs";
+  color: #f7921e;
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 110px 0;
+}
+
+.footer__inner {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 0;
+  align-items: center;
+}
+
+.footer {
+  background-color: #999999;
+  font-size: 20px;
+  line-height: 20px;
+  color: #ccc;
+  font-family: "PFDin TextPro-Regular";
+
+}
+.footer__adress{
+  max-width: 450px;
+}
+.footer__tel{
+  max-width: 160px;
+}
+.footer__social {
+  display: contents;
+
+  .footer__social-text{
+    max-width: 180px;
+  }
+
+  .facebook {
+    background-image: url(../img/facebook.png);
+    background-repeat: no-repeat;
+    width: 34px;
+    height: 34px;
+  }
+
+  .youtube {
+    background-image: url(../img/you-tube.png);
+    background-repeat: no-repeat;
+    width: 34px;
+    height: 34px;
+  }
+
+  .telegramm {
+    background-image: url(../img/telegram.png);
+    background-repeat: no-repeat;
+    width: 34px;
+    height: 34px;
+  }
+
+  .instagram{
+    background-image: url(../img/instagram.png);
+    background-repeat: no-repeat;
+    width: 34px;
+    height: 34px;
+  }
+ a{
+   padding: 0 15px;
+ }
 }

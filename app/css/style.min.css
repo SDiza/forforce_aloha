@@ -4578,14 +4578,6 @@ li {
   display: inline-block;
 }
 
-.top .top__navigation .top__logo {
-  position: absolute;
-  left: 50%;
-  -webkit-transform: translateX(-50%);
-      -ms-transform: translateX(-50%);
-          transform: translateX(-50%);
-}
-
 .top .top__navigation .top__navigation-lang {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
@@ -4595,6 +4587,15 @@ li {
 
 .top .top__navigation .top__navigation-lang a {
   font-size: 20px;
+}
+
+.top__logo {
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+          transform: translateX(-50%);
+  padding-top: 50px;
 }
 
 .top__wrapper {
@@ -4767,6 +4768,7 @@ li {
 .about {
   background-color: #e6e6e6;
   position: relative;
+  min-height: 1080px;
 }
 
 .about__background {
@@ -4779,10 +4781,12 @@ li {
   -webkit-transform: translateX(50%);
       -ms-transform: translateX(50%);
           transform: translateX(50%);
+  bottom: 0;
 }
 
 .about__inner {
   text-align: center;
+  position: relative;
 }
 
 .about__title {
@@ -4811,10 +4815,20 @@ li {
 
 .about__items-right {
   text-align: left;
+  position: absolute;
+  right: 0;
+  max-width: 480px;
+}
+
+.about__items-right .about__item-title {
+  max-width: 250px;
 }
 
 .about__items-left {
   text-align: right;
+  position: absolute;
+  left: 0;
+  max-width: 480px;
 }
 
 .about__items-left .about__title {
@@ -5238,4 +5252,201 @@ li {
 
 .programm__tabs .content__left-price:after {
   background-image: url(../img/uah-ico-blue.png);
+}
+
+.payment {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-width: 570px;
+  margin: 0 auto;
+  padding: 40px 0;
+}
+
+.payment .payment__visa {
+  background-image: url(../img/visa.png);
+  background-repeat: no-repeat;
+  width: 66px;
+  height: 20px;
+}
+
+.payment .payment__mastercard {
+  background-image: url(../img/mastercard.png);
+  background-repeat: no-repeat;
+  width: 56px;
+  height: 35px;
+}
+
+.payment .payment__privat24 {
+  background-image: url(../img/pb24.png);
+  background-repeat: no-repeat;
+  width: 42px;
+  height: 42px;
+}
+
+.payment .payment__mono {
+  background-image: url(../img/mono.png);
+  background-repeat: no-repeat;
+  width: 41px;
+  height: 41px;
+}
+
+.payment .payment__terminal {
+  background-image: url(../img/terminal.png);
+  background-repeat: no-repeat;
+  width: 39px;
+  height: 41px;
+}
+
+.payment .payment__check {
+  background-image: url(../img/check.png);
+  background-repeat: no-repeat;
+  width: 39px;
+  height: 39px;
+}
+
+.payment .payment__cash {
+  background-image: url(../img/cash.png);
+  background-repeat: no-repeat;
+  width: 37px;
+  height: 38px;
+}
+
+.advantages {
+  background-color: #e6e6e6;
+}
+
+.advantages__inner {
+  text-align: center;
+}
+
+.advantages__title {
+  font-size: 80px;
+  letter-spacing: 8px;
+  line-height: 75px;
+  font-family: "Queen of Clubs";
+  color: #000;
+  padding-top: 140px;
+}
+
+.advantages__text {
+  font-size: 20px;
+  line-height: 20px;
+  font-family: "PFDin TextPro-Regular";
+  color: #000;
+  padding: 45px 0;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.card__wrap {
+  max-width: 330px;
+  position: relative;
+}
+
+.card__link {
+  position: absolute;
+  top: 70px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+.card__link a {
+  font-size: 20px;
+  font-family: "PFDin TextPro-Regular";
+  color: #fff;
+}
+
+.card__text {
+  font-size: 20px;
+  line-height: 20px;
+  font-family: "PFDin TextPro-Regular";
+  color: #000;
+}
+
+.advantages__subtitle {
+  font-size: 35px;
+  line-height: 33px;
+  letter-spacing: 3.5px;
+  font-family: "Queen of Clubs";
+  color: #f7921e;
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 110px 0;
+}
+
+.footer__inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 50px 0;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer {
+  background-color: #999999;
+  font-size: 20px;
+  line-height: 20px;
+  color: #ccc;
+  font-family: "PFDin TextPro-Regular";
+}
+
+.footer__adress {
+  max-width: 450px;
+}
+
+.footer__tel {
+  max-width: 160px;
+}
+
+.footer__social {
+  display: contents;
+}
+
+.footer__social .footer__social-text {
+  max-width: 180px;
+}
+
+.footer__social .facebook {
+  background-image: url(../img/facebook.png);
+  background-repeat: no-repeat;
+  width: 34px;
+  height: 34px;
+}
+
+.footer__social .youtube {
+  background-image: url(../img/you-tube.png);
+  background-repeat: no-repeat;
+  width: 34px;
+  height: 34px;
+}
+
+.footer__social .telegramm {
+  background-image: url(../img/telegram.png);
+  background-repeat: no-repeat;
+  width: 34px;
+  height: 34px;
+}
+
+.footer__social .instagram {
+  background-image: url(../img/instagram.png);
+  background-repeat: no-repeat;
+  width: 34px;
+  height: 34px;
+}
+
+.footer__social a {
+  padding: 0 15px;
 }
